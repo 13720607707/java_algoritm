@@ -114,11 +114,11 @@ public class LinkList<T> implements Iterable<T>{
 
     @Override
     public Iterator<T> iterator() {
-        return new LIterator();
+        return new TIterator();
     }
-    private class LIterator implements Iterator{
+    private class TIterator implements Iterator{
         private Node n;
-        public LIterator(){
+        public TIterator(){
             this.n=head;
         }
         @Override
