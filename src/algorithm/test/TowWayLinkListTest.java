@@ -33,4 +33,4 @@ public class TowWayLinkListTest {
         System.out.println(s1.getLast());
 
     }
-}
+}//
